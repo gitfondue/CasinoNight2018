@@ -1,0 +1,270 @@
+#container{
+  text-align:center;
+  font-family: 'Cantarell', sans-serif;
+}
+
+#main{
+  height:58vw;
+  width:100vw;
+  background:url("https://i.imgur.com/nfbiXZT.png");
+  background-size: 100% auto;
+}
+
+#trans{
+  width:100vw;
+  height:3vw;
+  background-color: #180c00;
+}
+
+#upper{
+  height:45vw;
+  font-size:1.5vw;
+  text-align:right;
+  padding-right:3vw;
+  padding-top:2.5vw;
+}
+
+img{
+  width:23vw;
+  height:auto;
+}
+
+.univ{
+  width:16vw;
+  height:auto;
+}
+
+.loc{
+  color:white;
+}
+
+.loc:hover{
+  color:#cfd3d6;
+}
+
+#info{
+  color:white;
+  font-size:1.5vw;
+  height:7vw;
+}
+
+.time{
+  width:100%;
+  height:3.5vw;
+  padding-top:0.7vw;
+}
+
+.location{
+  height:3.5vw;
+  padding-bottom:0.7vw;
+}
+
+#ticket_container{
+  width:100%;
+  display:flex;
+  height:6vw;
+  padding-bottom:1.5vw;
+}
+
+#ticket_container > div {  
+  flex-grow: 1;
+}
+ 
+#ticket_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+#ticket_link {
+ font-size:1.5vw;
+ display: inline-block;
+ width: 20%;
+ margin: 0 auto;
+ flex-shrink:1;
+ background-color:white;
+ border: 0.3vw solid gray;
+ padding-top:0.5vw;
+ padding-bottom:0.5vw;
+}
+
+/*NEED TO FIX. NOT CENTER*/
+#sponsor_pic{
+  width:80%;
+  margin: 0 auto;
+}
+
+#element{
+  padding:2vw 0vw;
+}
+
+table{
+  width:100%;
+}
+
+a{
+  color:#f7de3b;
+}
+
+a:hover{
+  color:white;
+}
+
+#about_desc{
+  text-align:left;
+  width: 60%; 
+  margin: 0 auto;
+  font-size: 1.5vw;
+  padding: 2.5vw 1vw;
+  color: white;
+}
+
+.u_btn{
+  color:white;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  z-index:999;
+}
+
+.u_btn:hover{
+  font-weight:bold;
+  text-decoration:none;
+  border: 0.4px dotted #f7de3b;
+  margin:-1px;
+  color: #fee540;
+}
+
+button{
+  background-color:transparent;
+  border:none;
+  font-size:15px;
+}
+
+#sponsor_contact{
+  padding-top:0vw;
+  font-size:2vw;
+  display:inline-block;
+}
+
+#sponsor_btn{
+  padding-bottom:0vw;
+  display:inline-block;
+}
+
+.contact_line{
+  text-decoration: underline;
+  color: #fee540;
+}
+
+.contact_line:hover{
+  font-weight:bold;
+  color: white;
+}
+
+
+#sponsor{
+  padding-top:1.5vw;
+  padding-bottom:3vw;
+  height:70vw;
+  width:100vw;
+  background:url("https://i.imgur.com/LoEuu6d.png");
+  background-size: 100% auto;
+  color: white;
+}
+
+#contact_container{
+  font-size:2.5vw;
+  padding-top:1vw;
+  padding-bottom:3vw;
+}
+
+#about{
+  padding-top:0.5vw;
+  width: 100vw;
+  /* background:url("https://i.imgur.com/njD4Oqk.png"); */
+  border-style: double;
+  border-width: 5px 4px 5px 4px;
+  border-color: #f7de3b;
+  background-color: #180c00;
+  padding-bottom:1.5vw;
+  color: white;
+}
+
+h1{
+  font-size: 3vw;
+  font-family: 'Limelight';
+  font-style: bold;
+  color: #edcf0a;
+  padding-bottom: 0.1vw;
+}
+
+#footer{
+  font-size:1.2vw;
+  padding:0vw 2.5vw;
+  line-height:0.8;
+  width: 100vw;
+  vertical-align: middle;
+  color: white;
+}
+
+#credit{
+  font-size:1.2vw;
+  padding-top:1vw;
+  color: #ccb521;
+}
+
+#footer:hover{
+  text-decoration:none;
+  font-weight:bold;
+  border: 0.4px dotted #f7de3b;
+  margin:-1px;
+  color: #fee540;
+}
+
+#contact_container {
+  display: flex;
+  justify-content: center;
+  height:7vw;
+}
+
+#all_contact {
+  align-self:center;
+  padding-bottom:1vw;
+}
+
+.footer{
+  background:#47340f;
+  padding-top:4.2vw;
+  padding-bottom:1vw;
+}
+
+#credit{
+  padding-top:2vw;
+}
+
+.back{
+  height:0vw;
+}
+
+#back_main{
+  color:#ffffff;
+  font-size:3vw;
+  padding-bottom:1vw;
+  z-index:999;
+}
+
+#back_main:hover{
+  text-decoration:none;
+  font-weight:bold;
+  color:#f7de3b;
+  font-size:3.5vw;
+}
+
+#name {
+  color: #9a9c9e;
+}
+
+#name:hover{
+  text-decoration:none;
+  color:#ffffff;
+}
